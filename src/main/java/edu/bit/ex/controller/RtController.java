@@ -31,7 +31,7 @@ public class RtController {
     private BoardService boardService;
     private BoardVO boardVO;
 	
-    
+    // 숙제
     @RequestMapping("/rest/{bid}")
     public BoardVO rest1(@PathVariable("bid") int bid){
        log.info("/rest/{bid}..");
